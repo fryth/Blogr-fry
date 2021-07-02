@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+
+:root {
+    --light-red: hsl(356, 100%, 66%);
+    --ligther-red: hsl(355, 100%, 74%);
+    --dark-blue:hsl(208, 49%, 24%);
+    --white: #ffffff;
+    --light-gray: hsl(240, 2%, 79%);
+    --dark-gray:hsl(207, 13%, 34%);
+    --darker-gray:hsl(240, 10%, 16%);
+    --lighter-red-grad:hsl(13, 100%, 72%);
+    --light-red-grad:(353, 100%, 62%);
+    --dark-gray-grad: hsl(237,17%,21%);
+    --darker-gray-grad: hsl(237, 23%, 32%);
+}
+
+HTML {
+    font-size:62.5%;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-size: 1.6rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
